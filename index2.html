@@ -1,0 +1,251 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="witdth=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f9fc;
+      }
+      table {
+        border-spacing: 0;
+      }
+      td {
+        padding: 0;
+      }
+      img {
+        border: 0;
+      }
+      .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #f6f9fc;
+        padding-bottom: 40px;
+      }
+      .webkit {
+        max-width: 450px;
+        background-color: #ffffff;
+        background-image: url("assets/turuncu-yollar.png");
+        background-position: center;
+      }
+      .outer {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: sans-serif;
+        color: #4a4a4a;
+      }
+
+      .title {
+        margin-top: 15px;
+        background: rgba(47, 83, 132, 0.7);
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 1px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: larger;
+        padding: 16px;
+        border-radius: 20px;
+      }
+
+      .blue-bg {
+        width: 109%;
+        position: relative;
+        right: 20px;
+        overflow: auto;
+      }
+      p {
+        opacity: 1;
+      }
+
+      input {
+        border: none;
+        outline: none;
+      }
+      ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: black;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+      }
+      .inp1 {
+        width: 97%;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .inp2 {
+        width: 97%;
+        padding: 8px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .inp3 {
+        margin-top: 2px;
+        width: 97%;
+        padding: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+      .form {
+        width: 90%;
+        justify-content: flex-start;
+        background-color: #e5eaf4;
+        text-align: left;
+        padding-left: 10px;
+        border-radius: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        margin-top: 50px;
+        z-index: 10;
+      }
+
+      .final {
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        font-size: large;
+        background-color: #fc7900;
+        margin-top: 30px;
+        color: #ffffff;
+        margin-bottom: 30px;
+      }
+      .wrap {
+        display: flex;
+        flex-direction: flex;
+        padding-left: 10px;
+        padding-top: 50px;
+      }
+      @media screen and (max-width: 600px) {
+      }
+      @media screen and (max-width: 400px) {
+      }
+      hr {
+        display: flex;
+        height: 1px;
+        background-color: #ffffff;
+        border: none;
+      }
+      .mini-title {
+        position: absolute;
+        z-index: 10;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        padding-top: 10px;
+        padding-left: 110px;
+      }
+      .bg-2 {
+        position: absolute;
+        padding-left: 45px;
+        margin-top: -20px;
+      }
+      .description {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <center class="wraper">
+      <div class="webkit">
+        <table class="outer" align="center">
+          <img
+            src="assets/40AyakLogo.png"
+            width="180px"
+            height="140px"
+            alt=""
+          />
+          <p class="title">ARAÇ ATAMA VE PLANLAMA BİLGİSİ</p>
+          <div class="blue-bg">
+            <div class="mini-title">
+              <h2>Merhaba Sayın X,</h2>
+              <hr style="width: 230px" />
+              <div class="description">
+                <p>
+                  <span style="font-weight: 600; font-style: italic"
+                    >xxxxxxxx takip kodlu</span
+                  >
+                  taşımanız adresinize<br />
+                  teslim edilmiştir. Teslim evrakı ve gerekli <br />bilgiler
+                  aşağıdaki tabloda yer almaktadır
+                </p>
+                <p style="font-weight: 500; font-style: italic">
+                  Taşıma işleminizde 40AYAK'ı tercih<br />
+                  ettiğiniz için teşekkür ederiz.
+                </p>
+              </div>
+            </div>
+            <img src="assets/blue-bg.png" width="100%" />
+          </div>
+          <div class="wrap">
+            <div class="bg-2">
+              <img src="assets//bg2.png" width="420px" height="670px" />
+            </div>
+            <div class="form">
+              <form>
+                <input class="inp1" type="input" placeholder="Takip Kodu:" />
+                <hr />
+                <input class="inp2" type="input" placeholder="Nereden:" />
+                <input class="inp3" type="input" placeholder="Nereye:" />
+                <hr />
+                <input
+                  class="inp1"
+                  type="input"
+                  placeholder="İlan Açılış Tarihi:"
+                />
+                <hr />
+                <input
+                  class="inp1"
+                  type="input"
+                  placeholder="Şöför Adı-Soyadı:"
+                />
+                <hr />
+                <input
+                  class="inp1"
+                  type="input"
+                  placeholder="Şöför Telefon Numarası:"
+                />
+                <hr />
+                <input
+                  class="inp1"
+                  type="input"
+                  placeholder="TC Kimlik Bilgisi:"
+                />
+                <hr />
+                <input class="inp1" type="input" placeholder="Araç Türü:" />
+                <hr />
+                <input class="inp1" type="input" placeholder="Dorse Türü:" />
+                <hr />
+                <input
+                  class="inp1"
+                  type="input"
+                  placeholder="Plaka Bilgileri:"
+                />
+                <hr />
+                <input class="inp1" type="input" placeholder="Özel Kodlar:" />
+              </form>
+            </div>
+          </div>
+          <div class="final">
+            <p style="padding: 7px">
+              40AYAK'I TERCİH ETTİĞİNİZ İÇİN TEŞEKKÜRLER
+            </p>
+          </div>
+        </table>
+      </div>
+    </center>
+  </body>
+</html>
